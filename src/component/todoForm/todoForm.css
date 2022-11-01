@@ -1,0 +1,32 @@
+form{
+    width: 100%;
+}
+.form-control{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+form input{
+    width: 60%;
+    height: 28px;
+    text-indent: 5px;
+    border-radius: 5px 0 0 5px ;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+form button{
+    width: 40px;
+    height: 30px;
+    font-size: 16px;
+    background:rgba(73, 139, 227, 0.858);
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+@media only screen and (max-width: 480px){
+    form input{
+        width: 75%;
+    }
+}
